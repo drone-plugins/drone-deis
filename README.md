@@ -4,7 +4,7 @@
 [![Coverage Status](https://aircover.co/badges/drone-plugins/drone-deis/coverage.svg)](https://aircover.co/drone-plugins/drone-deis)
 [![](https://badge.imagelayers.io/plugins/drone-deis:latest.svg)](https://imagelayers.io/?images=plugins/drone-deis:latest 'Get your own badge on imagelayers.io')
 
-Drone plugin to deploy or update a project on Deis
+Drone plugin to deploy or update a project on Deis. For the usage information and a listing of the available options please take a look at [the docs](DOCS.md).
 
 ## Binary
 
