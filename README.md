@@ -7,7 +7,6 @@
 [![](https://images.microbadger.com/badges/image/plugins/deis.svg)](https://microbadger.com/images/plugins/deis "Get your own image badge on microbadger.com")
 [![Go Doc](https://godoc.org/github.com/drone-plugins/drone-deis?status.svg)](http://godoc.org/github.com/drone-plugins/drone-deis)
 [![Go Report](https://goreportcard.com/badge/github.com/drone-plugins/drone-deis)](https://goreportcard.com/report/github.com/drone-plugins/drone-deis)
-[![](https://images.microbadger.com/badges/image/plugins/deis.svg)](https://microbadger.com/images/plugins/deis "Get your own image badge on microbadger.com")
 
 Drone plugin to deploy or update a project on Deis. For the usage information and a listing of the available options please take a look at [the docs](DOCS.md).
 
