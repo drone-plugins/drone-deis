@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/drone-plugins/drone-git-push/repo"
+	"github.com/appleboy/drone-git-push/repo"
 	"github.com/drone/drone-go/drone"
 	"github.com/drone/drone-go/plugin"
 )
@@ -51,10 +51,10 @@ func main() {
 }
 
 func run(workspace *drone.Workspace, build *drone.Build, vargs *Params) error {
-	repo.GlobalName(build).Run()
-	repo.GlobalUser(build).Run()
+	repo.GlobalName(build.Email).Run()
+	repo.GlobalUser(build.Author).Run()
 
-	if err := repo.WriteKey(workspace); err != nil {
+	if err := repo.WriteKey(workspace.Keys.Private); err != nil {
 		return err
 	}
 
